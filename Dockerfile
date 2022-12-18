@@ -11,4 +11,4 @@ EXPOSE 8108
 EXPOSE 443
 
 # run typesense server
-CMD ["typesense-server", "--data-dir", "/typesense-data", "--api-key", "$TYPESENSE_API_KEY", "--enable-cors"]
+CMD ["typesense-server", "--data-dir", "/typesense-data", "--api-key", "xyz", "--enable-cors"]
