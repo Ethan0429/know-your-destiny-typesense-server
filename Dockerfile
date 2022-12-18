@@ -8,6 +8,7 @@ ENV PORT 8108
 RUN mkdir /typesense-data
 
 EXPOSE 8108
+EXPOSE 443
 
 # run typesense server
 CMD ["typesense-server", "--data-dir", "/typesense-data", "--api-key", "$TYPESENSE_API_KEY", "--enable-cors"]
