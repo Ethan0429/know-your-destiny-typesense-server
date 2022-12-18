@@ -1,5 +1,5 @@
 # import typesense image
-FROM typesense/typesense:latest
+FROM typesense/typesense:0.23.1
 
 ENV TYPESENSE_API_KEY=xyz
 
