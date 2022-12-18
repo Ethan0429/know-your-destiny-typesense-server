@@ -1,7 +1,10 @@
 # import typesense image
-FROM typesense/typesense:lastest
+FROM typesense/typesense:latest
 
 ENV TYPESENSE_API_KEY=xyz
+
+# create data directory
+RUN mkdir /data
 
 EXPOSE 8108
 
