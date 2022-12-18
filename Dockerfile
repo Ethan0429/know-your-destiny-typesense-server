@@ -2,6 +2,7 @@
 FROM typesense/typesense:0.23.1
 
 ENV TYPESENSE_API_KEY=xyz
+ENV PORT $PORT
 
 # create data directory
 RUN mkdir /typesense-data
